@@ -5,38 +5,31 @@ banner:
   bg_image: "images/Nebula (1).jpg"
   bg_overlay: true
   title: "IIBMErs"
-  content: "Self-organized Biological and Medical Engineering postgraduate students"
+  content: "Self-organized Biological and Medical Engineering students"
   button:
     enable: true
-    label: "Discover Our Project"
+    label: "Discover Our Projects"
     link: "project"
 
 ############################# About #################################
 about:
   enable: true
   title: "About Us"
-  description: " We are postgraduate students from the Institute for Biological and Medical Engineering doing fun interdisciplinary projects advancing science and engineering with impact in the society"
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."
-  image: "images/wrapper-img.png"
+  description: " We are students from the Institute for Biological and Medical Engineering doing fun interdisciplinary projects advancing science and engineering with impact in the society"
+  content: " We self-organized to lead and create environments that promotes synergistic interdisciplinary work, communication and friendship. We give experience working togheter to students with different background through interdisciplinary projects. The projects are Open-Source, with impact in society and aim to reduce knowledge barriers between different areas, by creating educational resources."
+  image: "images/logo%20coin.png"
 
 
 ######################### Portfolio ###############################
 portfolio:
   enable: true
-  bg_image: "images/feature-bg.jpg"
-  title: "WE BELIEVE IN GREAT IDEAS"
-  content: " Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-  "
+  bg_image: "images/feature-bg.gif"
+  title: "WE PROMOTE INTERDISCIPLINE"
+  content: "We are constantly generating new interdisciplinary projects to promote the colaboration between students with different background and looking for funding to execute them."
   button:
     enable: true
-    label: "View Works"
-    link: "project"
+    label: "Visit our GitHub"
+    link: "https://github.com/IIBMErs"
 
 
 ############################# Service ############################
@@ -49,57 +42,69 @@ service:
 cta:
   enable: true
   bg_image: "images/call-to-action-bg.jpg"
-  title: "We design delightful digital experiences."
-  content: "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+  title: "Let's collaborate"
+  content: "We are constantly looking for people to join our projects and to help with projects that are interesting and educational for us."
   button:
     enable: true
-    label: "Tell Us Your Story"
+    label: "Collaborate"
     link: "contact"
 
 ############################# Funfacts ###############################
 funfacts:
   enable: true
   title: "Fun Facts About Us"
-  description: "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
+  description: "'A long time ago <br>  in a galaxy far far away...'"
   funfact_item:
-  # funfacts item loop
-  - icon: "ion-ios-chatboxes-outline" #ionicon pack v2: https://ionicons.com/v2/
-    name: "Cups Of Coffee"
-    count: "99"
+  
+  # funfacts loop
+  - icon : "ion-ios-checkmark-outline" #ionicon pack v2 : https://ionicons.com/v2/
+    name : "Completed Projects"
+    count : "9"
     
-  # funfacts item loop
-  - icon: "ion-ios-glasses-outline" #ionicon pack v2: https://ionicons.com/v2/
-    name: "Article Written"
-    count: "45"
+  # funfacts loop
+  - icon : "ion-code-working" #ionicon pack v2 : https://ionicons.com/v2/
+    name : "Lines Of Code"
+    count : "+9000"
+           
+  # funfacts loop
+  - icon : "ion-battery-charging" #ionicon pack v2 : https://ionicons.com/v2/
+    name : "Current Projects"
+    count : "10"
     
-  # funfacts item loop
-  - icon: "ion-ios-compose-outline" #ionicon pack v2: https://ionicons.com/v2/
-    name: "Projects Completed"
-    count: "125"
-    
-  # funfacts item loop
-  - icon: "ion-ios-timer-outline" #ionicon pack v2: https://ionicons.com/v2/
-    name: "Combined Projects"
-    count: "200"
-
-  testimonial_slider:
+  # funfacts loop
+  - icon : "ion-cash" #ionicon pack v2 : https://ionicons.com/v2/
+    name : "Funds Raised ($)"
+    count : "6500"   
+ 
+  testimonial_slider:              
   # testimonial item loop
-  - name: "Raymond Roy"
-    image: "images/clients/avater-1.jpg"
-    designation: "CEO-Themefisher"
-    content: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
+  - name: "Gonzalo Vidal"
+    image: "images/ppictures/g-vidalsquare.jpg"
+    designation: "Synthetic Biologist"
+    content: "Survived a whole month just eating cereal and milk."
               
   # testimonial item loop
-  - name: "Randi Renin"
-    image: "images/clients/avater-1.jpg"
-    designation: "CEO-Themefisher"
-    content: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
-              
+  - name: "Carlos Castillo"
+    image: "images/ppictures/chorocastillo.jpeg"
+    designation: "MR physicist"
+    content: "Chilean champion of Rubik´s cube speed solving in 2009"
+    
   # testimonial item loop
-  - name: "Rose Rio"
-    image: "images/clients/avater-3.jpg"
-    designation: "CEO-Themefisher"
-    content: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
-
+  - name: "Gabriela Vargas"
+    image: "images/ppictures/Gaby%20Cropped.jpg"
+    designation: "Computational Neuroscientist"
+    content: "Has a dance career in Europe"
+    
+    # testimonial item loop
+  - name: "Carlos Valle"
+    image: "images/ppictures/CValle%20Cropped.jpg"
+    designation: "Computational Neuroscientist"
+    content: "A random cat peed his computer and burned its motherboard."
+    
+    # testimonial item loop
+  - name: "Axel Sepúlveda"
+    image: "images/ppictures/Axel%20Cropped.jpg"
+    designation: "Electric engineer"
+    content: "Solar car racing pilot. "
 
 ---

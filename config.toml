@@ -39,10 +39,11 @@ unsafe = true
 [params]
 logo = "images/logo.gif"
 logo_width = "200px"
+favicon = "images/favicon.png"
 # OpenGraph / Twitter Card metadata
-title = "Airspace Hugo Template"
-description = "This is meta description"
-author = "Themefisher"
+title = "IIBMers"
+description = "Self-organized Biological and Medical Engineering students"
+author = "IIBMers"
 images = [ "images/logo.png" ] # First image here will be used as fallback if a page has no images of its own
 
 
@@ -54,9 +55,11 @@ sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 ################################# Contact page ################################
 [params.contact]
 # Address block
-phone = "0124857985320"
+phone = "+56 986016091"
 email = "contact@iibmers.org"
 location = """
+Campus San Joaquín - Avda.Vicuña Mackenna 4860
+
 **IIBM**  
 Instituto de Ingeniería Biológica y Médica, 
 Macul, 
@@ -72,7 +75,7 @@ use_netlify = false
 # Form action
 ## For Formspree.io: Your Form ID URL, e.g. `https://formspree.io/f/{form_id}`
 ## For Netlify Forms: Path to a custom [success page](https://docs.netlify.com/forms/setup/#success-messages)
-action = "#"
+action = "https://formspree.io/f/xeqveojz"
 
 
 ################################# Google map ##################################
@@ -92,35 +95,26 @@ preloader = "" # use .png , .svg or .gif image
 
 ################################# Cookies #####################################
 [params.cookies]
-enable = true
+enable = false
 expire_days = 2
 
 
 ################################# Social Media ################################
 [[params.social]]
-icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-pinterest-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-dribbble-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
 icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+link = "https://twitter.com/IIBMErs_"
+
+[[params.social]]
+icon = "ion-social-instagram-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://www.instagram.com/iibmers/"
 
 [[params.social]]
 icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+link = "https://www.facebook.com/iibmers"
 
+[[params.social]]
+icon = "ion-social-youtube-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://www.youtube.com/channel/UCkovYMRH5t05yrkC0AegO1A/featured"
 
 ################################# Plugins #####################################
 # CSS Plugins
@@ -172,7 +166,7 @@ languageName = "English"
 languageCode = "en-US"
 contentDir = "content/english"
 weight = 1
-copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). All Rights Reserved."
+copyright = "Copyright &copy; 2021 [IIBMers github](https://github.com/IIBMErs). All Rights Reserved."
 
 # Main menu
 [[languages.en.menu.main]]
@@ -186,7 +180,7 @@ URL = "about"
 weight = 2
 
 [[languages.en.menu.main]]
-name = "Project"
+name = "Projects"
 URL = "project"
 weight = 3
 
@@ -196,24 +190,9 @@ URL = "blog"
 weight = 4
 
 [[languages.en.menu.main]]
+name = "Approach"
+URL = "approach"
 weight = 5
-name = "More"
-hasChildren = true
-
-  [[languages.en.menu.main]]
-  parent = "More"
-  name = "FAQ"
-  URL = "faq"
-
-  [[languages.en.menu.main]]
-  parent = "More"
-  name = "Pricing"
-  URL = "pricing"
-
-  [[languages.en.menu.main]]
-  parent = "More"
-  name = "Service"
-  URL = "service"
 
 [[languages.en.menu.main]]
 name = "Contact"
@@ -227,29 +206,24 @@ URL = "about"
 weight = 1
 
 [[languages.en.menu.footer]]
-name = "Project"
+name = "Projects"
 URL = "project"
 weight = 2
 
 [[languages.en.menu.footer]]
-name = "Service"
-URL = "service"
+name = "Blog"
+URL = "blog"
 weight = 3
 
 [[languages.en.menu.footer]]
-name = "Pricing"
-URL = "pricing"
+name = "Approach"
+URL = "approach"
 weight = 4
-
-[[languages.en.menu.footer]]
-name = "FAQ"
-URL = "faq"
-weight = 5
 
 [[languages.en.menu.footer]]
 name = "Contact"
 URL = "contact"
-weight = 6
+weight = 5
 
 
 ################################# French translation ##########################

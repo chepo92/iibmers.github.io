@@ -10,16 +10,17 @@
 	padding: 100px 0;
 
 	h2 {
+		color: $light;
 		margin-bottom: 30px;
 	}
 
 	p {
-		color: #8d8f92;
+		color: $light;
 		margin-bottom: 20px;
 	}
 
 	.btn-view-works {
-		background: #655E7A;
+		background: $primary-color;
 		color: #fff;
 		padding: 10px 20px;
 	}

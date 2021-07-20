@@ -1,7 +1,7 @@
 ---
-title: "About Our Company"
-description: "this is meta description"
-bg_image: "images/feature-bg.jpg"
+title: "About Our Organization"
+description: "Self-organized Biological and Medical Engineering students"
+bg_image: "images/Nebula%20(1).jpg"
 layout: "about"
 draft: false
 
@@ -9,54 +9,48 @@ draft: false
 ################################## About #####################################
 about:
   enable : true
-  image : "images/company/about.jpg"
+  image : "images/us.jpeg"
   title : "We strive to be the best and <br> make awesome work."
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam iure officiis facere vitae itaque.
-          
-          
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui vel cupiditate exercitationem, ea fuga est
-  velit nulla culpa modi quis iste tempora non, suscipit repellendus labore voluptatem dicta amet? Lorem ipsum
-  dolor sit amet, consectetur adipisicing elit. Provident, neque!"
+  content : "Our mission is to promote interdisciplinary work by generating a student community, creating instances of networking with students and professors from different faculties and from external institutions such as colleges and other universities.<br>
+  <br>
+  Our vision is to to be a world-class interdisciplinary student organization, both in teaching and research.<br>
+  <br>        
+  Our main objectives are to do interdisciplinary projects with impact in society and to reduce knowledge barriers between different areas, by creating educational resources."
 
   button:
-    enable : true
+    enable : false
     label : "Download Company Profile"
     link : "#"
 
   funfacts:
-  # funfacts loop
-  - icon : "ion-ios-flask-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Completed Projects"
-    count : "349"
+  # funfacts item loop
+  - icon: "ion-coffee" #ionicon pack v2: https://ionicons.com/v2/
+    name: "Cups Of Coffee"
+    count: "99"
     
-  # funfacts loop
-  - icon : "ion-ios-flame-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Lines Of Code"
-    count : "35000"
+ # funfacts item loop
+  - icon: "ion-ios-glasses-outline" #ionicon pack v2: https://ionicons.com/v2/
+    name: "Article Written"
+    count: "45"
     
-  # funfacts loop
-  - icon : "ion-ios-pint-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Satisfied Customer"
-    count : "70"
+  # funfacts item loop
+  - icon: "ion-checkmark-circled" #ionicon pack v2: https://ionicons.com/v2/
+    name: "Projects Completed"
+    count: "3"
     
-  # funfacts loop
-  - icon : "ion-ios-wineglass-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Awards Winner"
-    count : "10"
-    
-  # funfacts loop
-  - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Satisfied Customer"
-    count : "75"
+  # funfacts item loop
+  - icon: "ion-merge" #ionicon pack v2: https://ionicons.com/v2/
+    name: "Combined Projects"
+    count: "10"
     
   # funfacts loop
   - icon : "ion-ios-body-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Awards Winner"
-    count : "20"
+    name : "People"
+    count : "15"
     
 ################################ feature #####################################
 features:
-  enable : true
+  enable : false
   title : "We are indepented Design & Development Agency"
   feature_item:
   # feature item loop
@@ -92,44 +86,23 @@ features:
 
 #################################### testimonial & mission vision #######################################
 testimonial:
-  enable : true
+  enable : false
   # testimonial content comes from "data/*/homepage.yml" file
 
 mission_vision:
-  enable : true
+  enable : false
   tabs:
   # tab item loop
   - name : "Vision"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
-    harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
-    quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
-    voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
-    iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
-    suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
-    illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
-    temporibus eos sequi alias hic nemo."
+    content : "To be a world-class interdisciplinary student organization, both in teaching and research."
     
   # tab item loop
   - name : "Mission"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
-    harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
-    quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
-    voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
-    iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
-    suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
-    illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
-    temporibus eos sequi alias hic nemo."
+    content : "To promote interdisciplinary work by generating a student community, creating instances of networking with students and professors from different faculties and from external institutions such as colleges and other universities."
     
   # tab item loop
-  - name : "Approach"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
-    harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
-    quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
-    voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
-    iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
-    suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
-    illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
-    temporibus eos sequi alias hic nemo."
+  - name : "Objectives"
+    content : "To do interdisciplinary projects with impact in society. To reduce knowledge barriers between different areas, by creating educational resources."
 
 
 ############################# call to action #################################
